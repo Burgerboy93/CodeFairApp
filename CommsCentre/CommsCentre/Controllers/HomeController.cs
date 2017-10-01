@@ -26,5 +26,12 @@ namespace CommsCentre.Controllers
 
             return View();
         }
+
+        public ActionResult Students()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }
